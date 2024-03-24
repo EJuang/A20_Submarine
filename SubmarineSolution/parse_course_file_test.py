@@ -1,6 +1,8 @@
 import unittest
 from parse_course_file import parse_course_file
 
+#run test with python -m unittest parse_course_file_test.py
+
 class ParseCourseFileTest(unittest.TestCase):
     def test_can_read_file(self):
         filePath = './TestingFiles/submarine_kata_test_input.txt'

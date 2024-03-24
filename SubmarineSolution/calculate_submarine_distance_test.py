@@ -1,6 +1,8 @@
 import unittest
 from calculate_submarine_distance import calculate_position, process_course
 
+#run test with python -m unittest calculate_submarine_distance_test.py
+
 class SubmarinePositionTest(unittest.TestCase):
     def test_normal_distances(self):
         distances = calculate_position('./TestingFiles/submarine_kata_test_input.txt')
