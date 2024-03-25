@@ -7,5 +7,5 @@
     1. On Windows, run the command `python runSubmarine.py`
     2. On MacOS, run the command `python3 runSubmarine.py`
 4. To run unit tests:
-    1. On Windows, run the command `python -m unittest discover -s . -p '*_test.py'`
+    1. On Windows, run the command `python -m unittest discover -s . -p "*_test.py"`
     2. On MacOS, run the command `python3 -m unittest discover -s . -p '*_test.py'`
