@@ -5,7 +5,7 @@ from parse_course_file import parse_course_file
 
 class ParseCourseFileTest(unittest.TestCase):
     def test_can_read_file(self):
-        filePath = './TestingFiles/submarine_kata_test_input.txt'
+        filePath = './InputFiles/submarine_kata_test_input.txt'
         expectedResult = [
             ("forward", "5"),
             ("down", "5"),
